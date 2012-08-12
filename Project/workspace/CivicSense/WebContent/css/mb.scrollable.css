@@ -1,0 +1,124 @@
+/*
+ * jquery.mb.components
+ * Copyright (c) 2001-2010. Matteo Bicocchi (Pupunzi); Open lab srl, Firenze - Italy
+ * email: mbicocchi@open-lab.com
+ * site: http://pupunzi.com
+ *
+ * Licences: MIT, GPL
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+ */
+
+ #comptiles .scrollEl{
+            display:none;
+            /*background:url("../images/elBgnd.png") repeat-x;*/
+            border:1px solid #ddd;
+            font-family:"Segoe UI Light",Helvetica, Arial";
+            font-size:180%;
+            color:white;
+            height:100px;
+            padding:10px;
+            padding-top:60px;
+            /*text-shadow:#000 1px 1px 1px;*/
+            text-align:left;
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+        }
+        #comptiles .scrollEl{
+            /*background:url("../images/elBgnd.png") repeat-x;*/
+            border:1px solid #ddd;
+            font-family:"Segoe UI Light",Helvetica, Arial";
+            font-size:180%;
+            padding:10px;
+            padding-top:40%;
+            color:white;
+            height:100%;
+            /*text-shadow:#000 1px 1px 1px;*/
+            text-align:left;
+        /*CSS3 properties*/
+            -moz-border-radius: 8px;
+            -webkit-border-radius: 8px;
+            -moz-box-sizing:border-box;
+            -webkit-box-sizing:border-box;
+            box-sizing:border-box;
+        }
+   
+   		#comptiles .scrollE1:hover{cursor:pointer;}
+        
+        #comptiles .scrollEl .date{
+        	position:absolute;
+        	top:0px;
+        	font-weight: bold;
+        	margin-left:10px;
+        	text-align:left;
+        }
+        
+        #comptiles .scrollEl .place{
+        	position:absolute;
+        	font-weight: bold;
+        	top:30px;
+        	margin-left:10px;
+        	text-align:left;
+        }
+        
+        #comptiles .scrollEl .complainee{
+        	position:absolute;
+        	font-weight: bold;
+        	top:60px;
+        	margin-left:10px;
+        	text-align:left;
+        }
+        
+        #comptiles .scrollEl .level{
+        	position:absolute;
+        	font-weight: bold;
+        	top:90px;
+        	margin-left:10px;
+        	text-align:left;
+        }
+        #comptiles .scrollEl .desc1{
+        	position:absolute;
+        	font-weight: bold;
+        	top:120px;
+        	margin-left:10px;
+        	text-align:left;
+        }
+        #comptiles .scrollEl .desc2{
+        	position:absolute;
+        	font-weight: bold;
+        	top:150px;
+        	margin-left:120px;
+        	text-align:left;
+        }
+
+		#comptiles .scrollEl:hover{cursor:pointer;}
+
+        #controls div, #controls1 div{
+            font-family:sans-serif;
+            margin-top:5px;
+            background:#fff;
+            display:inline-block;
+            padding:6px;
+            cursor:pointer;
+            -moz-border-radius: 4px;
+            -webkit-border-radius: 4px;
+            -moz-box-shadow:#999 2px 2px 2px;
+            -webkit-box-shadow:#999 2px 2px 2px;
+        }
+
+        #myScroll1{
+            float:left;
+            margin-right:20px;
+        }
+
+        #controls .sel, #controls1 .sel{
+            color:black !important;
+            font-weight:bold;
+        }
+        #controls .disabled, #controls1 .disabled{
+            color:gray;
+        }
+        #controls .page, #controls1 .page{
+            padding:5px;
+            color:gray;
+        }

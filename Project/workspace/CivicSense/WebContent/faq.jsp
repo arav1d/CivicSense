@@ -1,0 +1,165 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Civic Sense | FAQ</title>
+<link type="text/css" href="css/style.css" rel="stylesheet"/>
+<link type="text/css" href="css/jquery-ui-1.8.18.custom.css" rel="stylesheet">
+<link type="text/css" href="css/jquery.toastmessage.css" rel="stylesheet"/>
+
+<%session.invalidate(); %>
+<script type="text/javascript" src="scripts/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="scripts/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="scripts/slide.js"></script>
+<script type="text/javascript" src="scripts/custom.js"></script>
+<script type="text/javascript" src="scripts/jquery.ui.core.js"></script>
+<script type="text/javascript" src="scripts/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="scripts/jquery.ui.button.js"></script>
+<script type="text/javascript" src="scripts/jquery.toastmessage.js"></script>
+<script type="text/javascript" src="scripts/search.js"></script>
+
+<script>
+	$(function() {
+		$( "input:submit").button();
+	});
+	
+	$(document).ready(function(){$().toastmessage('showToast', {
+	       text     : 'If you have<br/>questions ..<br/>',
+	       sticky   : false,
+	       stayTime : 6000,
+	       position : 'top-right',
+	       type     : 'notice'
+	    });
+});
+
+	
+//$("a[rel]").overlay();
+
+</script>
+<style type="text/css">
+a:link {color:#ffffff;}      /* unvisited link */
+a:visited {color:#ffffff;}  /* visited link */
+a:hover {color:#75A3FF;}  /* mouse over link */
+a:active {color:#C8DAFF;}  /* selected link */ 
+</style>
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<p><span>Contact:</span> <strong>Toll Free 1800-000-000</strong></p>
+			<ul>
+				<li class="no_bg"><a href="index.jsp">Home</a></li>
+				<%--  <span style="color:#525961">|</span> --%>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+		</div>
+		<a href="index.jsp" id="logo" title="civic sense"></a>
+		
+		<div id="sl" style="display:none;" onclick="this.style.display = 'none'"></div>
+		
+		<div id="container">
+		<div id="slideshow">
+		<ul id="slides">
+			<li><img src="images/slide1.jpg" alt="cs1" /></li>
+			<li><img src="images/slide2.jpg" alt="cs2" /></li>
+			<li><img src="images/slide3.jpg" alt="cs3" /></li>
+			<li><img src="images/slide4.jpg" alt="cs4" /></li>
+		</ul>
+		</div>
+		</div>
+		<div id="navigation">
+			<ul>
+				<li ><a href="index.jsp">Home</a></li>
+				<li ><a href="cititzen_home.jsp">Citizen</a></li>
+				<li ><a href="authority_home.jsp">Authority</a></li>
+				<li ><a href="admin_home.jsp">Administrator</a></li>
+				<li ><a href="ngohome.jsp">NGO</a></li>
+				<li ><a href="support.jsp">Support</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<div id="left_column">
+				<div class="text">
+					<h2>What's Civic Sense ?</h2>
+						<p><img src="images/js.jpg" alt="js"/>The term 'Civic Sense' refers to the
+						project website.It's an active city administration initiative.
+						</p>
+						<p>
+						<br/>
+						It's a term that encompases various novel means by which the system is presented
+						and processed.
+						</p>
+				</div>
+				<div class="text alternative">
+				<h2>What does a citizen do ?</h2>
+						<p><br/><i>Complaint scrolls</i> : For the ease of complaint viewing</p>
+						<p><br/><i>Post a complaint</i> : Citizens can post complaints and seek for redressal.They can download the copy in pdf format is required</p>
+						<p><br/><i>Post Feedbacks</i> : Citizen can post positive or negative feedbacks for the complaints that he has posted.<br/>Negative feedbacks are viewed seriously when it comes to the credits being awarded to any authority.</p>
+						<p><br/><i>Support</i> : Any citizen belonging to a zone can support any complaint pertainig to his zone.<br/>This internally increases the priority of the complaint!</p>
+						<p><br/><i>Groups</i> : A citizen is entitled to be a member of any group of his choice as long as it's in his zone.<br/>They can discuss in the forums!
+						<p><br/><i>Suggestions</i> : A citizen can suggest changes in the system which can be viewed by the authority.<br/>Support can be provided to suggestions too!</p>
+				</div>
+				<div class="text">
+				<h2>What does a Municipal Authority have in this site ?</h2>
+						<p><br/><i>Handle a complaint</i> : Authorities can scroll through the complaints and change status or invalidate complaints.</p>
+						<p><br/><i>View memos</i> : Authorities can view memos and download them in pdf format.</p>
+						<p><br/><i>View Suggestions </i> : Authorities can view suggestions pertaining to their department.</p>
+				</div>
+				<div class="text alternative">
+				<h2>What does a citizen do ?</h2>
+						<p><br/><i>Manage authorities</i> : Administrators can create authority accounts, issue memos to them!</p>					
+						<p><br/><i>Generate activity reports</i> : They have the previlege to send the work statistics t their authorities.</p>  
+				</div>
+				<div class="text">
+				<h2>What is it for the NGO ?</h2>
+				<p><br/><i>Create groups</i> : NGOs are entitled to create any group that is visible to their area of registration.
+				<p><br/><i>View Forums</i> : They can view the discussions under their forums [Groups] </p>
+				</div>
+				
+			</div>
+			
+			
+				
+				
+				
+			<div id="right_column">
+				
+                <div class="splheading">
+                	<h2>Popular Groups</h2>
+                </div>
+                	<ul>
+            			<li><span>Cigarette-BAN</span>&nbsp;Towards a healthier society</li>
+                        <li><span>Schools</span>&nbsp; Educational reforms</li>
+                        <li><span>Garbage menace</span>&nbsp; General health</li>
+                        <li><span>How to handle</span>&nbsp; The authority tutor</li>
+            		</ul>
+                
+                <div class="heading">
+                	<h2>Recent News</h2>
+                    	<img src="images/news.png" alt="" />
+                </div> 
+                	<ul>
+            			<li><span>Cleanliness day</span>&nbsp; Celebration and messages</li>
+                        <li><span>Stamp paper scams</span>&nbsp; Beware of the false stamps</li>
+            		</ul>
+			</div>
+		
+		
+		</div>
+	</div>
+	
+	<div id="footer">
+		<div id="footer_content">
+			<ul>
+				<li class="no_bg"><a href="index.jsp">Home</a></li>
+				<li><a href="#">FAQ</a></li>
+			</ul>
+			<p> &copy; 2012 Civic Sense - Team. All wrongs unreserved. </p>
+		</div>
+	</div>
+</body>
+</html>

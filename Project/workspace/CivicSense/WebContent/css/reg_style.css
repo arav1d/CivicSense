@@ -1,0 +1,317 @@
+@CHARSET "ISO-8859-1";
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input{
+	margin:0;
+	padding:0;
+}
+
+ul{
+	list-style:none;
+}
+
+fieldset{
+	border:0;
+}
+
+a{
+	text-decoration:none;
+}
+body {
+position:relative;
+background: url(../images/body_bg.gif) repeat-x;
+color:#000;
+font:62.5% "Segoe UI Light",Arial,sans-serif;
+z-index:0;
+}
+#wrapper{
+width: 943px;
+padding: 0px 0px 0px 1px;
+margin:0 auto;
+}
+#header{
+width: 886px;
+height: 49px;
+font-size: 14px;
+padding: 16px 35px 0px 22px;
+}
+
+#header p{
+float: left;
+color: #525961;
+
+}
+
+#header span{
+color: #bababa;
+}
+
+#header ul{
+float:right;
+list-style:none
+}
+
+#header ul li{
+float: left;
+margin: 0px 12px 0px 0px;
+padding: 0px 0px 0px 12px;
+border-left: 2px #525961 solid;
+/*background: url(../images/header_navi_bg.jpg) left bottom no-repeat;*/
+}
+
+#header ul li.no_bg{
+border: none;
+
+}
+
+#header ul li a{
+color:#fff;
+text-decoration:none;
+
+}
+
+#header ul li a:hover{
+	color:threeddarkshadow;
+}
+
+#logo{
+display:inline-block;
+width: 255px;
+height: 34px;
+float: left;
+clear: both;
+margin: 0px 0px 0px -47px;
+background:url(../images/logonew.jpg);
+text-indent: -9999px;
+z-index:1;
+}
+
+form{
+float: right;
+}
+
+input{
+width: 171px;
+height: 17px;
+float: left;
+padding: 5px 10px;
+color: #a0a4a8;
+border: none;
+}
+
+input:focus{
+	color: #9B9B9B;
+}
+
+#search_form input#submit{
+display: inline;
+width: 66px;
+height: 26px;
+float: left;
+margin: 0px 5px 0px 4px;
+background: url(../images/search_button.gif) no-repeat;
+z-index:1;
+}
+
+
+#navigation{
+width: 926px;
+height: 64px;
+float: left;
+margin-top: 10px;
+padding: 12px 0px 0px 15px;
+background: url(../images/navigation_bg.gif) repeat-x;
+border-left: 1px solid #43474b;
+border-right: 1px solid #43474b;
+font-family: "Segoe UI Light",Arial;
+color: #cbd9e7;
+font-size: 24px;
+}
+
+#content{
+width: 943px;
+float: left;
+background: url(../images/content_bg.gif) repeat-y;
+z-index:0;
+}
+
+#right_column{
+width: 288px;
+float: left;
+padding: 18px 18px 0px 17px;
+}
+
+#regform{
+width: 620px;
+float: left;
+}
+
+#regform .text{
+font-family: "Segoe UI Light", Arial;
+width: 552px;
+float: left;
+padding: 32px 38px 22px 10px;
+}
+
+#regform .text table{
+display:block;
+font-family:  "Segoe UI Light", Arial;
+font-size: 12px;
+width: 500px;
+float: left;
+padding: 32px 38px 22px 0px;
+}
+
+#regform .text h2{
+font-size: 24px;
+float: left;
+margin: 0px 0px 12px 0px;
+color: #fff;
+}
+
+.alternative{
+background: #2a2d32;
+border-top: 1px solid #26292e;
+border-bottom: 1px solid #26292e;
+}
+
+input#postmemo{
+display: inline;
+width: 78px;
+height: 29px;
+float: right;
+margin: 0px 5px 10px 4px;
+/*background: url(../images/complain.jpg) no-repeat;*/
+}
+
+#footer{
+	width: 100%;
+	float: left;
+	clear: both;
+	height: 120px;
+	border-top: 1px solid #3c4249;
+	background: #1e2329;
+}
+
+#footer_content{
+	margin: auto;
+	width: 943px;
+	padding: 46px 17px 0px 0px;
+}
+
+#footer_content ul{
+	float: right;
+	margin: 0px 0px 10px 0px;
+}
+
+#footer_content ul li{
+	float: left;
+	margin: 0px 0px 0px 12px;
+	padding: 0px 0px 0px 12px;
+	border-left: 2px #525961 solid;
+}
+
+#footer_content ul li.no_bg{
+	border: none;
+}
+
+#footer_content ul li a{
+	color:#fff;
+}
+
+
+#footer_content p{
+	float: right;
+	clear: right;
+	margin: 0px;
+	font-size: 12px;
+	color: #383d43;
+}
+
+.heading{
+width: 260px;
+height: 29px;
+float: left;
+padding: 12px 14px 0px 14px;
+margin: 0px 0px 18px 0px;
+background: url(../images/navi_button_bg.gif) repeat-x;
+}
+
+.heading h2{
+font-size: 17px;
+color: #ffffff;
+float: left;
+font-weight: normal;
+}
+
+.heading img{
+float: right;
+margin: 3px 0px 0px 0px;
+}
+
+ul{
+float: left;
+margin: 0px 0px 39px 0px;
+}
+
+ul li{
+font-size: 14px;
+color: #ffffff;
+margin: 0px 0px 17px 11px;
+}
+
+ul li span{
+color: #65b8f9;
+}
+
+input#register{
+display: inline;
+width: 78px;
+height: 29px;
+float: right;
+margin: 0px 5px 10px 4px;
+/*background: url(../images/register.jpg) no-repeat;*/
+}
+
+input#complain{
+display: inline;
+width: 78px;
+height: 29px;
+float: right;
+margin: 0px 5px 10px 4px;
+/*background: url(../images/complain.jpg) no-repeat;*/
+}
+
+input#reset{
+display: inline;
+width: 78px;
+height: 29px;
+float: left;
+margin: 0px 5px 10px 4px;
+/*background: url(../images/reset.jpg) no-repeat;*/
+}
+
+.checkbox, .radio {
+	width: 19px;
+	height: 25px;
+	padding: 0 2px 0 0;
+	background: url(../images/checkbox.png) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+.radio {
+	background: url(../images/radio.png) no-repeat;
+}
+.select {
+	position: absolute;
+	width: 158px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 21px;
+	padding: 0 24px 0 8px;
+	color: #fff;
+	font: 12px/21px arial,sans-serif;
+	background: url(../select.png) no-repeat;
+	overflow: hidden;
+}
+
+#whatever{
+	margin:10px;
+}

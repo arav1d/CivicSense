@@ -1,0 +1,20 @@
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin1','4mb4mb','aswin','bharadwaj','male','Zone I Tondiarpet','aswin@gmail.com',9790861842)
+
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin2','4mb4mb','Arvind','Ram','male','Zone II Basin Bridge','arvind@gmail.com',8056435023)
+
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin3','4mb4mb','Aravinthan','t','male','Zone III Pulianthope','aravinthan@gmail.com',979995970)
+
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin4','4mb4mb','Bharani','ramu','male','Zone IV Ayanavaram','bharani@gmail.com',9790861842)
+
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin5','4mb4mb','Ragavendar','tr','male','Zone V Kilpauk','ragav@gmail.com',8790851842)
+
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin6','4mb4mb','Anand','v','male','Zone VI Ice House','anand@gmail.com',9793453212)
+
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin7','4mb4mb','Krishnan','k','male','Zone VII Nungambakkam','krishnan@gmail.com',9677004370)
+
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin8','4mb4mb','Komala','prabhu','female','Zone VIII Kodambakkam','komala@gmail.com',9790861842)
+
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin9','4mb4mb','Aishwarya','krishnan','female','Zone IX Saidapet','aishwarya@gmail.com',9790861842)
+
+insert into administrator(username,password,fname,lname,sex,zone,email,ph_no) values('admin10','4mb4mb','Ajay','barghav','male','Zone X Adyar','aswin@gmail.com',9790861842)
+
